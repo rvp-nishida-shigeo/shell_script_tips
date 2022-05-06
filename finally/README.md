@@ -14,9 +14,9 @@ finally() では wait を使ってコマンドの終了を待ってるため、�
 しても必ず finally_block() が実行される。
 
 ## sample.sh
-    コマンドラインオプションで渡したコマンドを実行した後に finally_block() が
-    呼び出されることを確認する。
-    finalluy_block() には、呼び出されたことを示すメッセージを表示している。
+コマンドラインオプションで渡したコマンドを実行した後に finally_block() が
+呼び出されることを確認する。
+finalluy_block() には、呼び出されたことを示すメッセージを表示している。
 
 ```bash
 $ ./sample.sh ls -al
