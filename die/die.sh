@@ -1,6 +1,4 @@
 #! /bin/bash
-set -eu
-
 function die() {
     local msg=${1}
     local status_code=${2-1}
@@ -8,12 +6,20 @@ function die() {
     exit ${status_code};
 }
 
-#false || die "error!" ;
-false || \
-    die "error!" 128;
+function error() {
+    local msg=${1}
+    local status_code=${2-1}
+    echo "ERROR: ${msg}";
+    exit ${status_code};
+}
 
-false;
-if [ $? -ne 0 ]; then
-    die "error!" 255;
-fi
+function warn() {
+    local status_code=${2-1}
+    echo "WARN: ${msg}";
+}
+
+function info() {
+    local msg=${1}
+    echo "INFO: ${msg}";
+}
 
