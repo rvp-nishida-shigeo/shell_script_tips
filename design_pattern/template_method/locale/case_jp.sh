@@ -21,4 +21,4 @@ function baz() {
 }
 
 
-base_func $@;
+template_func $@;

@@ -20,4 +20,4 @@ function baz() {
     return 0;
 }
 
-base_func $@;
+template_func $@;
