@@ -14,7 +14,7 @@ source した bash ファイルの実行コンテクスト上にクラス定義�
 図形、長方形、正方形、三角形を例に実装している。
 実行例は以下の通り。
 
-##長方形
+## 長方形
 ```bash
 $ ./sample.sh rectangle name
 INFO: クラス名は 長方形 です。
@@ -26,7 +26,7 @@ $ ./sample.sh rectangle area 3 3
 INFO: 面積は 9 です。
 ```
 
-##正方形
+## 正方形
 ```bash
 $ ./sample.sh square name
 INFO: クラス名は 正方形 です。
@@ -38,7 +38,7 @@ $ ./sample.sh square area 3 3
 INFO: 面積は 9 です。
 ```
 
-##三角形
+## 三角形
 ```bash
 $ ./sample.sh triangle name
 INFO: クラス名は 三角形 です。
