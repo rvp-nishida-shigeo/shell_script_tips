@@ -14,5 +14,5 @@ function draw() {
 }
 
 function area() {
-    info "計算できません！";
+    not_implimented;
 }

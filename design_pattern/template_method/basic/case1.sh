@@ -14,5 +14,4 @@ function bar() { called; }
 
 function baz() { called; }
 
-
-base_func;
+template_func;

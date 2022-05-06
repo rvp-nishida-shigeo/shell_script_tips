@@ -25,4 +25,4 @@ if [ $# -ne 1 ]; then
     exit 0;
 fi
 
-base_func $@;
+template_func $@;
