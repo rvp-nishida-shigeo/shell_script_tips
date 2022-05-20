@@ -17,3 +17,5 @@ commit:
 add:
 	git add .
 
+reset:
+	git reset

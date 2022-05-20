@@ -1,10 +1,4 @@
 # finally
-## cleanup.sh
-一時ファイルのクリーンナップをするための最もシンプルな実装例。
-/tmp/${PID} を一時ディレクトリとして使用するルールを前提としている。
-```bash
-$ ./cleanup.sh ls -al
-```
 
 ## finally.sh
 テンプレートメソッドを用いて finally を実装している。
