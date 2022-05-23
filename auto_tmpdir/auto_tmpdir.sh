@@ -19,3 +19,5 @@ function auto_tmpdir() {
     __rm_tmpdir;
     return $retval;
 }
+
+trap true 1 2 3 15
