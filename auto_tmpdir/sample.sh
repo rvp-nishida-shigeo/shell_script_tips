@@ -12,7 +12,9 @@ function usage() {
 
 [ $# -eq 0 ] && usage;
 case $1 in
-    -h|help) usage; ;;
+-h|help) usage; ;;
+   doit)        ;;
+      *) usage; ;;
 esac
 
 auto_tmpdir ./prog.sh doit ;
